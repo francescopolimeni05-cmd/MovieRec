@@ -70,7 +70,7 @@ df.to_csv(out)
 print(f"\nSaved -> {out}")
 
 fig, ax = plt.subplots(figsize=(8, 4))
-ax.barh(df.index, df["tail_share@10"], color="#8172B3")
+ax.barh(df.index, df["tail_share@10"], color="#33617E")
 ax.set_xlabel("share of top-10 recommendations in the long tail (bottom 80%)")
 ax.set_title("Popularity bias: who recommends beyond the head?")
 ax.grid(alpha=0.3, axis="x")

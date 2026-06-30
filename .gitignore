@@ -13,9 +13,9 @@ __pycache__/
 venv/
 
 # ---- Build / scratch artifacts ----------------------------------------------
-*.pdf
 results/run.log
 .DS_Store
+~$*            # Office lock/temp files (e.g. ~$Presentation.pptx)
 
 # Stale/older processed caches (only the current 10k cache is needed online)
 data/processed/model_ratings_u5000_*.pkl
