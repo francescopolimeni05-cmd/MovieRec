@@ -1,0 +1,28 @@
+user,model,top5_titles
+124204,MostPopular,"Jurassic Park (1993) | Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981) | Usual Suspects, The (1995) | Dark Knight, The (2008) | Inception (2010)"
+124204,HighestAvg(min20),Planet Earth II (2016) | Band of Brothers (2001) | Planet Earth (2006) | Everything Everywhere All at Once (2022) | Parasite (2019)
+124204,BayesianAvg(IMDb),"Usual Suspects, The (1995) | Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964) | Spirited Away (Sen to Chihiro no kamikakushi) (2001) | 12 Angry Men (1957) | Casablanca (1942)"
+124204,Random,Deepstar Six (1989) | Laws of Gravity (1992) | Reluctant Witness (2015) | Deception (1946) | Elections Day (2007)
+124204,ContentBased(TF-IDF),"King Lear (1916) | Fidanzati, I (Fiances, The) (1963) | Posto, Il (1961) | Deepwater Horizon (2016) | Queen of Katwe (2016)"
+124204,ContentBased(raw genres),"Elephant Song (2014) | House on Fire (1986) | Family Life (1971) | Come to the Stable (1949) | Secret Life of Bees, The (2008)"
+124204,ItemItemCF(k=10),"Planet Earth II (2016) | Lawrence of Arabia (1962) | Capturing the Friedmans (2003) | King's Speech, The (2010) | Spring, Summer, Fall, Winter... and Spring (Bom yeoreum gaeul gyeoul geurigo bom) (2003)"
+124204,UserUserCF(k=40),"Great Gatsby, The (2013) | Immortal Beloved (1994) | Princess Mononoke (Mononoke-hime) (1997) | Wolf of Wall Street, The (2013) | Whiplash (2014)"
+124204,MatrixFactorization(TruncatedSVD),"Memento (2000) | Usual Suspects, The (1995) | Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981) | Green Mile, The (1999) | Monsters, Inc. (2001)"
+94003,MostPopular,"Jurassic Park (1993) | Terminator 2: Judgment Day (1991) | Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981) | Usual Suspects, The (1995) | Star Wars: Episode VI - Return of the Jedi (1983)"
+94003,HighestAvg(min20),Planet Earth II (2016) | Band of Brothers (2001) | Planet Earth (2006) | Everything Everywhere All at Once (2022) | Parasite (2019)
+94003,BayesianAvg(IMDb),"Usual Suspects, The (1995) | Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964) | Spirited Away (Sen to Chihiro no kamikakushi) (2001) | 12 Angry Men (1957) | Casablanca (1942)"
+94003,Random,The Cup (2012) | Heartbeat (1938) | Tekken (2010) | VS. (2018) | The Rebel (1980)
+94003,ContentBased(TF-IDF),Young Ones (2014) | The Phantom Empire (1935) | High Plains Invaders (2009) | Jessie James Meets Frankenstein's Daughter (1966) | The Automaton (2019)
+94003,ContentBased(raw genres),"The Phantom Empire (1935) | Young Ones (2014) | Crazy Horse (1996) | I Will Fight No More Forever (1975) | Alamo, The (1960)"
+94003,ItemItemCF(k=10),"Aliens (1986) | Princess Bride, The (1987) | Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981) | Star Wars: Episode VI - Return of the Jedi (1983) | Seven Samurai (Shichinin no samurai) (1954)"
+94003,UserUserCF(k=40),"When a Man Loves a Woman (1994) | Kiki's Delivery Service (Majo no takkyûbin) (1989) | Robin Hood: Men in Tights (1993) | Adventures of Priscilla, Queen of the Desert, The (1994) | Nightmare Before Christmas, The (1993)"
+94003,MatrixFactorization(TruncatedSVD),"Usual Suspects, The (1995) | Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981) | Goodfellas (1990) | One Flew Over the Cuckoo's Nest (1975) | Star Wars: Episode VI - Return of the Jedi (1983)"
+35631,MostPopular,"Matrix, The (1999) | Star Wars: Episode IV - A New Hope (1977) | Fight Club (1999) | Lord of the Rings: The Fellowship of the Ring, The (2001) | Jurassic Park (1993)"
+35631,HighestAvg(min20),Planet Earth II (2016) | Band of Brothers (2001) | Planet Earth (2006) | Everything Everywhere All at Once (2022) | Parasite (2019)
+35631,BayesianAvg(IMDb),"Godfather, The (1972) | Usual Suspects, The (1995) | Fight Club (1999) | Godfather: Part II, The (1974) | Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964)"
+35631,Random,Sinbad and the War of the Furies (2016) | Sugar Hill (1994) | The Old Mill (1937) | Giving Birth to a Butterfly (2021) | Airport (1970)
+35631,ContentBased(TF-IDF),Zone Troopers (1985) | Battle: Los Angeles (2011) | Soldier (1998) | G.I. Samurai (1979) | Flight World War II (2015)
+35631,ContentBased(raw genres),Rogue Warfare: The Hunt (2019) | Fighter Squadron (1948) | Hell Hath No Fury (2021) | Commando Leopard (1985) | Guadalcanal Diary (1943)
+35631,ItemItemCF(k=10),"American Movie (1999) | Player, The (1992) | Game, The (1997) | Notting Hill (1999) | E.T. the Extra-Terrestrial (1982)"
+35631,UserUserCF(k=40),"Piper (2016) | Arrival (2016) | Big (1988) | Three Days of the Condor (3 Days of the Condor) (1975) | Birds, The (1963)"
+35631,MatrixFactorization(TruncatedSVD),"Usual Suspects, The (1995) | Sixth Sense, The (1999) | Toy Story (1995) | Fugitive, The (1993) | American Beauty (1999)"

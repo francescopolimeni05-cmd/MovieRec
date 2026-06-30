@@ -1,0 +1,6 @@
+model,tail_share@10
+MostPopular,0.0
+MatrixFactorization(SVD),0.012000000000000002
+BayesianAvg(IMDb),0.01875
+ItemItemCF(k=10),0.493
+ContentBased(TF-IDF),0.9754999999999999

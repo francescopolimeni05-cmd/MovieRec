@@ -1,0 +1,25 @@
+# ---- Large data the deployed app does NOT need -------------------------------
+# The app runs on the small bundled data/movies.csv + data/processed/*.pkl cache,
+# so the 877 MB raw dataset and the old 1M CSVs must stay out of the repo.
+/ml-32m/
+ml-32m/
+data/raw/
+
+# ---- Python / Jupyter --------------------------------------------------------
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# ---- Build / scratch artifacts ----------------------------------------------
+*.pdf
+results/run.log
+.DS_Store
+
+# Stale/older processed caches (only the current 10k cache is needed online)
+data/processed/model_ratings_u5000_*.pkl
+data/processed/model_ratings_u3000_*.pkl
+
+# NOTE: data/movies.csv and the CURRENT data/processed/model_ratings_u10000_*.pkl
+# ARE committed on purpose — they let the app run online without the full dataset.
